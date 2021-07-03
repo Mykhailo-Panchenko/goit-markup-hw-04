@@ -266,7 +266,17 @@ img{
 .team-box{
     padding: 30px 32px;
 }
+.social-list{
+    display: flex;
+}
                                             /* END TEAM */
+                                            /* CLIENTS */
+.clients-list{
+    display: flex;
+    justify-content: center;
+}
+                                            
+                                            /* END CLIENTS */
 
                                             /* FOOTER */
 
