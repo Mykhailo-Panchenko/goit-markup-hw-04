@@ -193,7 +193,10 @@ img {
   border: 1px solid transparent;
   border-radius: 4px;
   background-color: var(--team-background-color);
+  width: 270px;
+  height: 120px;
 }
+
 .title-scnd {
   font-weight: bold;
   font-size: 36px;
