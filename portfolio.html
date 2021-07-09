@@ -36,16 +36,20 @@
             </nav>
                 <ul class="header-list">
                     <li class="header-item">
-                        <svg class="mail-icon" width="16" hight="12">
-                            <use href="./images/sprite.svg#mail"></use>
-                        </svg>
-                        <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="header-link" href="mailto:info@devstudio.com">
+                            <svg class="header-icon" width="16" height="12">
+                                <use href="./images/sprite.svg#mail"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li class="header-item">
-                        <svg class="phone-icon" width="16" hight="12">
-                            <use href="./images/sprite.svg#phone"></use>
-                        </svg>
-                        <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="header-link" href="tel:+380961111111">
+                            <svg class="header-icon" width="10" height="16" dw>
+                                <use href="./images/sprite.svg#phone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
         </div>
@@ -75,7 +79,7 @@
                         <img class="content-img"src="./images/portfolio/portfolio-img-2.jpg" alt="два баскетболиста" width="370" height="294">
                         <div class="content-box">
                             <h3 class="title-potfolio">Постер New Orlean vs Golden Star</h3>
-                            <p class="portfolio-text">Дизайн    </p>
+                            <p class="portfolio-text">Дизайн</p>
                         </div>
                     </li>
                     <li class="content-list-item">
@@ -134,24 +138,61 @@
     </main>
 
         <!--FOOTER-->
-    <footer class="footer-section">
-        <div class="container footer-container">
-        <a class="logo-footer" href="./">
-            Web<span class="footer-scnd-part-logo">Studio</span> 
-        </a>
-        <address class="address">
-            <ul class="address-list">
-                <li class="address-list-item">
-                    <a class="footer-link-address" href="https://goo.gl/maps/qPLBQ7NTv8aQXPM97" target="blank" rel="noopener noreferre">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li class="address-list-item">
-                    <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="address-list-item">
-                    <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-        </div>
-    </footer>
+        <footer class="footer-section">
+            <div class="container footer-container">
+                <div class="footer-address-box">
+                    <a class="logo-footer" href="./">
+                        Web<span class="footer-scnd-part-logo">Studio</span>
+                    </a>
+                    <address class="address">
+                        <ul class="address-list">
+                            <li class="address-list-item">
+                                <a class="footer-link-address" href="https://goo.gl/maps/qPLBQ7NTv8aQXPM97" target="blank"
+                                    rel="noopener noreferre">г. Киев, пр-т Леси Украинки, 26</a>
+                            </li>
+                            <li class="address-list-item">
+                                <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="address-list-item">
+                                <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="footer-link-box">
+                    <p class="link-text">Присоединяйтесь</p>
+                    <ul class="footer-social-list">
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-team-media-link" width="20" higth="20">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-team-media-link" width="20" higth="20">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-team-media-link" width="20" higth="20">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-list-item">
+                            <a href="" class="footer-social-list-link">
+                                <svg class="footer-team-media-link" width="20" higth="20">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </address>
+            </div>
+        </footer>
 </body>
+</html>
